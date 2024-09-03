@@ -1,6 +1,6 @@
 import json
 
-file_path = r'C:\Users\lucas\OneDrive\Área de Trabalho\desafio-target\3.faturamento.json'
+file_path = r'C:\Users\lucas\OneDrive\Área de Trabalho\dados.json'
 
 with open(file_path, 'r') as file:
     dados = json.load(file)
